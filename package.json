@@ -1,0 +1,32 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caps.js",
+  "scripts": {
+    "start": "node caps.js",
+    "test": "jest --coverage --verbose",
+    "doc": "jsdoc -c docs/config/jsdoc.config.json",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-ahmadkmal/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-ahmadkmal/caps/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-ahmadkmal/caps#readme",
+  "dependencies": {
+    "delay": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.2.0",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
